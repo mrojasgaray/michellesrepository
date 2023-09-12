@@ -1,9 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #FA92FB;
 }
 
 h1 {
-    color:cornflowerblue;
+    color:#A653F5;
     font-family: sans-serif;
     font-size: 72px;
     letter-spacing: -3px;
@@ -13,7 +14,7 @@ h1 {
 }
 
 p {
-    background-color: #8R8CF2;
+    background-color: #8f8cf2;
     line-height: 1.25;
     margin-bottom: 1.25em;
 }
