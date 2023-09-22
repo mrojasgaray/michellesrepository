@@ -39,26 +39,25 @@ p img {
 
 a{
     font-weight: bold;
-    color: #F96CFF;
+    color: #65B8BF;
 }
 
 ul {
-    background-color: #65B8BF;
+    background-color: #F3F3F3;
     display: flex;
     justify-content: center;
-    gap: 30px;
     list-style: none;
-    padding-left: 0;
-    width: 200px;
-    border-top: 1px solid #FA92FB;
-    border-bottom: 1px solid #FA92FB;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 ul li a {
-    color: #FA92FB;
+    color: #65B8BF;
     text-decoration: none;
     padding: 12px;
     display: block;
+    text-align: center;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
