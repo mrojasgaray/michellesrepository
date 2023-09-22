@@ -42,15 +42,7 @@ a{
     color: #F96CFF;
 }
 
-ul li a {
-    text-decoration: none;
-}
-
-ul li a:hover {
-    text-decoration: underline;
-}
-
-nav ul {
+ul {
     background-color: #65B8BF;
     display: flex;
     justify-content: center;
@@ -62,12 +54,7 @@ nav ul {
     border-bottom: 1px solid #FA92FB;
 }
 
-nav ul li {
-    border-bottom: 1px solid #FA92FB;
-    padding: 5px;
-}
-
-nav ul li a {
+ul li a {
     color: #FA92FB;
     text-decoration: none;
     padding: 12px;
@@ -78,7 +65,7 @@ nav ul li a {
     letter-spacing: 1px;
 }
 
-nav ul li a:hover {
+ul li a:hover {
     text-decoration: underline;
     border-bottom: 3px solid #F96CFF;
     padding-bottom: 9px;
