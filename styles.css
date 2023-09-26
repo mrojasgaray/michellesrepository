@@ -39,7 +39,8 @@ p img {
 
 a{
     font-weight: bold;
-    color: #5d3784;
+    background-color: #5d3784;
+    color: white;
 }
 
 ul {
@@ -52,7 +53,6 @@ ul {
 }
 
 ul li a {
-    background-color: #5d3754;
     text-decoration: none;
     padding: 12px;
     display: block;
@@ -65,6 +65,6 @@ ul li a {
 
 ul li a:hover {
     text-decoration: underline;
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 3px solid #5d3754;
     padding-bottom: 9px;
 }
