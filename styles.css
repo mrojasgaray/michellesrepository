@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    color:#0073e6;
+    color: #5d3784;
     font-family: sans-serif;
     font-size: 72px;
     letter-spacing: -3px;
@@ -19,7 +19,7 @@ p {
 
 figure {
     margin: 0;
-    border: 1px solid #009eb0;
+    border: 1px solid #5d3784;
     padding: 12px;
     padding-bottom: 24px;
 }
@@ -39,7 +39,7 @@ p img {
 
 a{
     font-weight: bold;
-    color: #0073e6;
+    color: #5d3784;
 }
 
 ul {
@@ -52,7 +52,8 @@ ul {
 }
 
 ul li a {
-    color: #606ff3;
+    color: #ffffff;
+    background-color: #5d3754
     text-decoration: none;
     padding: 12px;
     display: block;
@@ -65,6 +66,6 @@ ul li a {
 
 ul li a:hover {
     text-decoration: underline;
-    border-bottom: 3px solid #9b8bf4;
+    border-bottom: 3px solid #ffffff;
     padding-bottom: 9px;
 }
