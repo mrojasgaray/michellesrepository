@@ -44,11 +44,14 @@ a{
 }
 
 .site-nav {
+    background-color: PaleVioletRed;
     display: flex;
     justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
+    width: 200px;
+    border: 1px solid MediumVioletRed;
     overflow: hidden;
 }
 
@@ -57,8 +60,13 @@ a{
     padding: 5px;
 }
 
+.site-nav .site-nav-item:last-child {
+    border-bottom: 0;
+}
+
 .site-nav .site-nav-item a {
     text-decoration: none;
+    color: white
     padding: 12px;
     display: block;
     text-align: center;
@@ -66,6 +74,7 @@ a{
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .site-nav .site-nav-item a:hover {
