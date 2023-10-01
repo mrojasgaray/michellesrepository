@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+h1#site-title{
     color: #5d3784;
     font-family: sans-serif;
     font-size: 72px;
@@ -10,6 +10,10 @@ h1 {
     margin-top: 0;
     margin-bottom: .125em;
     text-align: center;
+}
+
+h1#article-title{
+    font-size: 48px;
 }
 
 p {
