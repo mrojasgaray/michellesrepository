@@ -37,7 +37,7 @@ figure img {
 
 figure.main-image {
     background: PaleVioletRed;
-    border: mediumvioletred;
+    border-color: MediumVioletRed;
     color: #ffffff
 }
 
