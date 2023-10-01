@@ -43,7 +43,7 @@ a{
     color: white;
 }
 
-ul {
+.site-nav {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -52,7 +52,12 @@ ul {
     overflow: hidden;
 }
 
-ul li a {
+.site-nav .site-nav-item {
+    border-bottom: 1px solid MediumVioletRed;
+    padding: 5px;
+}
+
+.site-nav .site-nav-item a {
     text-decoration: none;
     padding: 12px;
     display: block;
@@ -63,7 +68,7 @@ ul li a {
     letter-spacing: 1px;
 }
 
-ul li a:hover {
+.site-nav .site-nav-item a:hover {
     text-decoration: underline;
     border-bottom: 3px solid #5d3754;
     padding-bottom: 9px;
