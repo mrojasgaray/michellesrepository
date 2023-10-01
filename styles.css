@@ -35,6 +35,16 @@ figure img {
     margin-bottom: 12px;
 }
 
+figure.main-image {
+    background: PaleVioletRed;
+    border: mediumvioletred;
+    color: #ffffff
+}
+
+figure.section-image {
+
+}
+
 p img {
     float: right;
     max-width: 60%;
