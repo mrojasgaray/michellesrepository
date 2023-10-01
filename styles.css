@@ -73,7 +73,7 @@ a{
     color: white;
 }
 
-.site-nav {
+ul {
     background-color: PaleVioletRed;
     display: flex;
     justify-content: center;
@@ -85,16 +85,12 @@ a{
     overflow: hidden;
 }
 
-.site-nav .site-nav-item {
+ul li {
     border-bottom: 1px solid MediumVioletRed;
     padding: 5px;
 }
 
-.site-nav .site-nav-item:last-child {
-    border-bottom: 0;
-}
-
-.site-nav .site-nav-item a {
+ul li a {
     text-decoration: none;
     color: white;
     padding: 12px;
@@ -107,7 +103,7 @@ a{
     text-decoration: none;
 }
 
-.site-nav .site-nav-item a:hover {
+ul li a:hover {
     text-decoration: underline;
     border-bottom: 3px solid #5d3754;
     padding-bottom: 9px;
