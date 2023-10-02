@@ -4,6 +4,18 @@ body {
     margin: 0;
 }
 
+.container {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.small-container {
+    margin: 0 auto;
+    width: 92%;
+    max-width: 768px;
+}
+
 h1#site-title{
     color: #5d3784;
     font-size: 72px;
@@ -65,47 +77,40 @@ p img {
     margin-bottom: 32px;
 }
 
-header nav ul {
-    background-color: PaleVioletRed;
-    display: inline-block;
+nav ul {
+    display: flex;
     justify-content: center;
-    list-style-type: none;
-    margin: 0 auto;
-    padding-left: 0;
-    width: 200px;
-    border: 1px solid MediumVioletRed;
-    overflow: hidden;
     gap: 30px;
+    list-style: none;
+    padding-left: 0;
 }
 
-header nav ul li {
-    border-bottom: 1px solid MediumVioletRed;
-    padding: 5px;
+nav ul li {
+
 }
 
-header nav ul li a {
+nav ul li a {
+    color: mediumvioletred;
     text-decoration: none;
-    color: #5d3784;
     padding: 12px;
     display: block;
-    text-align: center;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 1px;
-    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    border-bottom: 3px solid mediumvioletred;
+    padding-bottom: 9px;
 }
 
 header nav ul {
     border-top: 2px solid #5d3754;
     border-bottom: 1px solid #5d3754;
+}
 
-header nav ul li a:hover {
-    text-decoration: underline;
-    border-bottom: 3px solid #5d3784;
-    padding-bottom: 9px;
-
-footer nav {
+    footer nav {
 
 }
 
@@ -117,10 +122,10 @@ footer nav ul a:hover {
     text-decoration: underline;
 }
 
-footer#page-footer (
-    text-align: center;
+footer#page-footer {
     padding: 32px 0;
     margin-top: 64px;
-    background-color:mediumvioletred;
-    color: white
-)
+    text-align: center;
+    background-color:#5d3754;
+    color: white;
+}
