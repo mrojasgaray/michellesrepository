@@ -65,7 +65,7 @@ p img {
     margin-bottom: 32px;
 }
 
-nav ul {
+header nav ul {
     background-color: PaleVioletRed;
     display: flex;
     justify-content: center;
@@ -78,12 +78,12 @@ nav ul {
     gap: 30px;
 }
 
-nav ul li {
+header nav ul li {
     border-bottom: 1px solid MediumVioletRed;
     padding: 5px;
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
     color: #5d3784;
     padding: 12px;
@@ -96,13 +96,27 @@ nav ul li a {
     text-decoration: none;
 }
 
-header nav ul li a:hover {
-    text-decoration: underline;
-    border-bottom: 3px solid #5d3784;
-    padding-bottom: 9px;
-}
 header nav ul {
     border-top: 2px solid #5d3754;
     border-bottom: 1px solid #5d3754;
 
+header nav ul li a:hover {
+    text-decoration: underline;
+    border-bottom: 3px solid #5d3784;
+    padding-bottom: 9px;
+
+footer nav {
+
 }
+
+footer nav ul a:hover {
+    text-decoration: underline;
+}
+
+footer#page-footer (
+    text-align: center;
+    padding: 32px 0;
+    margin-top: 64px;
+    background-color:mediumvioletred;
+    color: white
+)
