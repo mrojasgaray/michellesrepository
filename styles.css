@@ -69,8 +69,8 @@ figure.section-image {
     margin: -20px -62px 32px 20px;
 }
 
-image {
-    width: 100%;
+img {
+    width: auto;
     height: auto;
 }
 
