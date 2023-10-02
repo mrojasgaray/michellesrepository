@@ -86,7 +86,7 @@ ul {
 }
 
 li {
-    text-align: center;
+    float:none;
 }
 
 ul li {
