@@ -1,20 +1,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
 }
 
 h1#site-title{
     color: #5d3784;
-    font-family: sans-serif;
     font-size: 72px;
     letter-spacing: -3px;
     margin-top: 0;
     margin-bottom: .125em;
     text-align: center;
+    font-weight: 800;
 }
 
 h1#article-title{
     font-size: 48px;
-    text-align: left;
+    font-weight: 900;
+    margin-bottom: 22px;
+    margin-top: 48px;
+}
+
+h2 {
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 48px;
 }
 
 p {
@@ -38,26 +48,14 @@ figure img {
 figure.main-image {
     background: PaleVioletRed;
     border-color: MediumVioletRed;
-    color: #ffffff
+    color: #ffffff;
+    margin-bottom: 32px;
 }
 
 figure.section-image {
-    margin-bottom: 32px;
     max-width: 320px;
-}
-
-figure.section-image.odd {
     float: right;
-    margin-left: 20px;
-    margin-bottom: 32px;
-    max-width: 320px;
-}
-
-figure.section-image.even {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 32px;
-    max-width: 320px;
+    margin: -20px -62px 32px 20px;
 }
 
 p img {
@@ -67,22 +65,17 @@ p img {
     margin-bottom: 32px;
 }
 
-a{
-    font-weight: bold;
-    background-color: #5d3784;
-    color: white;
-}
-
 nav ul {
     background-color: PaleVioletRed;
     display: flex;
     justify-content: center;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
     width: 200px;
     border: 1px solid MediumVioletRed;
     overflow: hidden;
+    gap: 30px;
 }
 
 nav ul li {
@@ -92,7 +85,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #5d3784;
     padding: 12px;
     display: block;
     text-align: center;
@@ -103,8 +96,13 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
     text-decoration: underline;
-    border-bottom: 3px solid #5d3754;
+    border-bottom: 3px solid #5d3784;
     padding-bottom: 9px;
+}
+header nav ul {
+    border-top: 2px solid #5d3754;
+    border-bottom: 1px solid #5d3754;
+
 }
