@@ -67,7 +67,7 @@ p img {
 
 header nav ul {
     background-color: PaleVioletRed;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     list-style-type: none;
     margin: 0 auto;
