@@ -69,6 +69,11 @@ figure.section-image {
     margin: -20px -62px 32px 20px;
 }
 
+figure.bottom-image {
+    max-width: 100%;
+    height: auto;
+}
+
 p img {
     float: right;
     max-width: 60%;
@@ -109,7 +114,7 @@ header nav ul {
     border-bottom: 1px solid #5d3754;
 }
 
-    footer nav {
+footer nav {
 
 }
 
