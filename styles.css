@@ -109,6 +109,10 @@ footer nav {
 
 }
 
+footer nav ul li a {
+    color: white;
+}
+
 footer nav ul a:hover {
     text-decoration: underline;
 }
