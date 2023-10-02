@@ -69,7 +69,7 @@ figure.section-image {
     margin: -20px -62px 32px 20px;
 }
 
-figure.center {
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
