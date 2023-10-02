@@ -17,7 +17,6 @@ body {
 }
 
 h1#site-title{
-    color: #5d3784;
     font-size: 72px;
     letter-spacing: -3px;
     margin-top: 0;
@@ -101,7 +100,7 @@ nav ul li a {
 }
 
 header nav ul li a:hover {
-    border-bottom: 3px solid mediumvioletred;
+    border-bottom: 3px solid #5d3754;
     padding-bottom: 9px;
 }
 
