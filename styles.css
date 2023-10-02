@@ -77,12 +77,16 @@ ul {
     background-color: PaleVioletRed;
     display: flex;
     justify-content: center;
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
     border: 1px solid MediumVioletRed;
     overflow: hidden;
+}
+
+li {
+    text-align: center;
 }
 
 ul li {
