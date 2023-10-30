@@ -63,9 +63,9 @@ figure img {
 }
 
 figure.main-image {
-    background: PaleVioletRed;
-    border-color: MediumVioletRed;
-    color: #ffffff;
+    background: #b3c7f73;
+    border-color: #8babf1;
+    color: black;
     margin-bottom: 32px;
 }
 
