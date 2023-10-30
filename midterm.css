@@ -51,7 +51,7 @@ p {
 
 figure {
     margin: 0;
-    border: 1px solid #8d86ff;
+    border: 1px solid #5d3784;
     padding: 12px;
     padding-bottom: 24px;
 }
@@ -63,9 +63,9 @@ figure img {
 }
 
 figure.main-image {
-    background: #c58cff;
-    border-color: #8d86ff;
-    color: #8d86ff;
+    background: PaleVioletRed;
+    border-color: MediumVioletRed;
+    color: #ffffff;
     margin-bottom: 32px;
 }
 
@@ -100,7 +100,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #c58cff;
+    color: mediumvioletred;
     text-decoration: none;
     padding: 12px;
     display: block;
@@ -111,13 +111,13 @@ nav ul li a {
 }
 
 header nav ul li a:hover {
-    border-bottom: 3px solid #8d86ff;
+    border-bottom: 3px solid #5d3754;
     padding-bottom: 9px;
 }
 
 header nav ul {
-    border-top: 2px solid #8d86ff;
-    border-bottom: 2px solid #8d86ff;
+    border-top: 2px solid #5d3754;
+    border-bottom: 1px solid #5d3754;
 }
 
 footer nav {
@@ -136,6 +136,6 @@ footer#page-footer {
     padding: 32px 0;
     margin-top: 64px;
     text-align: center;
-    background-color:#8d86ff;
-    color: black;
+    background-color:#5d3754;
+    color: white;
 }
