@@ -146,10 +146,12 @@ footer nav ul a:hover {
     text-decoration: underline;
 }
 
-footer#page-footer {
-    padding: 32px 0;
-    margin-top: 64px;
-    text-align: center;
-    background-color:#5d3754;
-    color: white;
+@media all and (min-width: 376px) {
+    footer#page-footer {
+        padding: 32px 0;
+        margin-top: 64px;
+        text-align: center;
+        background-color:#5d3754;
+        color: white;
+    }
 }
