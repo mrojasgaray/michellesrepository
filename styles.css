@@ -49,6 +49,11 @@ p {
     margin-bottom: 1.25em;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 figure {
     margin: 0;
     border: 1px solid #5d3784;
